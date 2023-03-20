@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import {useState, useEffect} from 'react';
 import "./App.css";
-import "./App.scss";
+
 import { Configuration, OpenAIApi } from 'openai';
 import getConfig from 'next/config';
 
