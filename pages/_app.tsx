@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
       n:1,
       size:"512x512"
   })
-  image_url = response['data'][0]['url']
+  
     setLoading(false);
     const data = res.data;
     console.log(data);
